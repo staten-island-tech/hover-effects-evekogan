@@ -22,7 +22,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: red;
   margin: 1rem auto;
   font-size: 2rem;
   border-radius: 10rem;
@@ -31,13 +30,28 @@ body {
 }
 
 .btn-red {
-  background-color: color(red);
   color: #ffffff;
 }
 
 .btn:hover {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
+  -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
+          box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 html,
@@ -48,42 +62,6 @@ body {
           box-sizing: border-box;
   font-size: 62.5%;
   background: #f2fff2;
-}
-
-.title {
-  color: #3b6064ff;
-  font-size: 15rem;
-  font-family: "Dancing Script";
-  padding-top: 8rem;
-  text-align: center;
-  margin: 0;
-}
-
-.smaller-title {
-  color: #3b6064ff;
-  font-size: 4rem;
-  font-family: "Playfair Display";
-  text-align: center;
-  letter-spacing: 1rem;
-  padding-bottom: 3rem;
-}
-
-.movie-title {
-  color: #87bba2ff;
-  font-size: 8rem;
-  font-family: "Merriweather";
-  margin: 0;
-  padding-bottom: 2rem;
-}
-
-.subtitle {
-  color: #55828bff;
-  font-size: 3rem;
-  font-family: "Helvetica";
-  font-style: italic;
-  font-weight: 100;
-  margin: 0;
-  padding-bottom: 2rem;
 }
 
 .container {
@@ -104,66 +82,5 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-}
-
-.box {
-  background-color: #d6edd6;
-  height: auto;
-  padding: 8rem;
-  margin: 4rem;
-  border-radius: 2rem;
-}
-
-.box-1 {
-  margin-top: 0;
-}
-
-/* .content {
-  display: flex;
-  flex-flow: row wrap;
-  align-content: space-between;
-} */
-.movie-img {
-  height: auto;
-  width: 50%;
-  padding-top: 2rem;
-  padding-right: 4rem;
-  float: left;
-}
-
-.movie-img-ms {
-  height: auto;
-  width: 50%;
-  padding-top: 2rem;
-  padding-left: 4rem;
-  float: right;
-}
-
-.text-summary {
-  color: #364958ff;
-  font-family: "Playfair Display";
-  margin-top: 1rem;
-  font-size: 4rem;
-}
-
-.text-float-right {
-  float: right;
-}
-
-.readmore {
-  text-align: center;
-  font-family: "Playfair Display";
-  font-size: 5rem;
-  margin: 0;
-  padding-top: 2rem;
-}
-
-a {
-  text-decoration: none;
-  color: #364958ff;
-}
-
-a:hover {
-  color: #87bba2ff;
 }
 /*# sourceMappingURL=style.css.map */

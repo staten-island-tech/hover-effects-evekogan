@@ -15,9 +15,6 @@ $colors: (
   charcoal: #364958ff,
 );
 
-$fonts: (
-  title-font: "Dancing Script",
-  movie-title-font: "Merriweather",
-  subtitle-font: "Helvetica",
-  main-font: "Playfair Display",
-);
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
