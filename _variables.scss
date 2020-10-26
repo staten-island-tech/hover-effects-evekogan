@@ -7,12 +7,10 @@ body {
 }
 
 $colors: (
-  bg-color: rgb(242, 255, 242),
-  tea-green: rgb(214, 237, 214),
-  eton-blue: #87bba2ff,
-  steel-teal: #55828bff,
-  deep-space-sparkle: #3b6064ff,
-  charcoal: #364958ff,
+  red: #ff5722,
+  white: #fff,
+  blue: #00b0ff,
+  black: #000,
 );
 
 @function color($color-name) {
