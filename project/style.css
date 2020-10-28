@@ -1,1 +1,237 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-effect {
+  font-size: 5rem;
+  color: #f77f00ff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  color: #fcbf49ff;
+  -webkit-transform: scaleY(2);
+          transform: scaleY(2);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.cats {
+  height: 20rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 0;
+}
+
+.cats:hover {
+  border-radius: 50%;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.button-title {
+  margin-bottom: 5rem;
+}
+
+.btn,
+.btn:link,
+.btn-visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: #d62828ff;
+  color: #fff;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 10rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.btn:hover {
+  background-color: #003049ff;
+  color: #f77f00ff;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.img-container {
+  width: 47%;
+  position: relative;
+  margin: auto;
+}
+
+.cat-img {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 0%;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #fcbf49ff;
+  overflow: hidden;
+}
+
+.img-container:hover .overlay {
+  opacity: 75%;
+  width: 100%;
+}
+
+.cat-header {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -100%);
+          transform: translate(-50%, -100%);
+  text-align: center;
+  white-space: nowrap;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.list-container {
+  padding: 1rem;
+}
+
+.hellolist-ul {
+  margin: auto;
+  text-align: center;
+  padding-right: 3rem;
+}
+
+.hellolist-ul .letter {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #003049ff;
+  font-size: 4rem;
+  -webkit-transition: all 0.75s;
+  transition: all 0.75s;
+}
+
+.list-container:hover .letter {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  color: #f77f00ff;
+}
+
+.header {
+  color: #d62828ff;
+  font-size: 8rem;
+  padding: 3rem;
+  padding-bottom: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.subtitle {
+  color: #003049ff;
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  text-align: center;
+  margin: 0;
+  p-bottom: 0;
+}
+
+.container {
+  width: 100vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.box {
+  border-radius: 2rem;
+  padding: 5rem;
+  height: auto;
+  margin: 5rem;
+  margin-bottom: 1rem;
+  background-color: #fff5bd;
+  width: 60rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #003049ff;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+$colors: (
+  blue: #003049ff,
+  red: #d62828ff,
+  orange: #f77f00ff,
+  yellow: #fcbf49ff,
+  light-yellow: rgb(255, 245, 189),
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}

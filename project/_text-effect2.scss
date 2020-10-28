@@ -1,0 +1,24 @@
+@import "_variables.scss";
+
+.list-container {
+  padding: 1rem;
+}
+
+.hellolist-ul {
+  margin: auto;
+  text-align: center;
+  padding-right: 3rem;
+}
+
+.hellolist-ul .letter {
+  list-style: none;
+  display: inline-flex;
+  color: color(blue);
+  font-size: 4rem;
+  transition: all 0.75s;
+}
+
+.list-container:hover .letter {
+  transform: rotateY(360deg);
+  color: color(orange);
+}

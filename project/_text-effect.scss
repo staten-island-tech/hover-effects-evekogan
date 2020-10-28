@@ -1,0 +1,12 @@
+@import "_variables.scss";
+
+.text-effect {
+  font-size: 5rem;
+  color: color(orange);
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  color: color(yellow);
+  transform: scaleY(2);
+}

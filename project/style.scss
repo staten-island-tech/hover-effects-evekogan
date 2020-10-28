@@ -1,0 +1,49 @@
+@import "_variables.scss";
+@import "_text-effect.scss";
+@import "_shape.scss";
+@import "_btn.scss";
+@import "_cat.scss";
+@import "_text-effect2.scss";
+
+.header {
+  color: color(red);
+  font-size: 8rem;
+  padding: 3rem;
+  padding-bottom: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.subtitle {
+  color: color(blue);
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  text-align: center;
+  margin: 0;
+  p-bottom: 0;
+}
+.container {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.box {
+  border-radius: 2rem;
+  padding: 5rem;
+  height: auto;
+  margin: 5rem;
+  margin-bottom: 1rem;
+  background-color: color(light-yellow);
+  width: 60rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: color(blue);
+}
